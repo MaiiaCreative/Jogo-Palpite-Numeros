@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#stage{
+    width: 300px;
+    height: 33px;
+    position: relative;
+}
+
+#escala{
+    width: 300px;
+    height: 33px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../src/scale.png);
+}
+
+#ponteiro{
+    width: 17px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../src/arrow.png);
+
+    /*TRANSIÇÃO (ANIMAÇÃO)*/
+    transition: left 0.5s ease-out 0s;
+}
+
+button{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    color: #ffffff;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(0, 0, 0));
+
+    width: 80px;
+    height: 30px;
+
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(66, 100, 59), rgb(146, 189, 137));
+}
+
+button:active{
+    background-image: linear-gradient(rgb(202, 193, 114), rgb(103, 107, 62));
+}

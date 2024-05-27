@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+main{
+    position: absolute;
+    left: 100px;
+}
+
+h3{
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+
+    left: 70px;
+}
+.bt1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    color: #ffffff;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(0, 0, 0));
+
+    width: 80px;
+    height: 30px;
+
+    top: 15px;
+    left: 70px;
+}
+
+.bt2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    color: #ffffff;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(100, 184, 114), rgb(67, 117, 88));
+
+    width: 80px;
+    height: 30px;
+
+    top: 90px;
+    left: 70px;
+}
+
+.bt3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    color: #ffffff;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(116, 117, 66), rgb(204, 203, 140));
+
+    width: 80px;
+    height: 30px;
+
+    top: 169px;
+    left: 70px;
+}
+
+button :hover{
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(36, 82, 27));
+}
+
+button :active{
+    background-image: linear-gradient(rgb(101, 126, 69), rgb(189, 204, 122));
+}
+
