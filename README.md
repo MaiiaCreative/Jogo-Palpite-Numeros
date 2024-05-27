@@ -12,3 +12,5 @@ Para estudar/xecutar estes conteúdos, baixe a pasta para sua máquina.
           index.html
 
 2 - Lembre-se de mudar os endereços dos links nas tags dentro do HTML.
+
+Este projeto foi desenvolvido por Marcos Maia.
